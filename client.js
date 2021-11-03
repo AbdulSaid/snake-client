@@ -14,6 +14,14 @@ const connect = function() {
   // Interpret incoming data as text
   conn.setEncoding("utf-8");
 
+  //send data to the server
+  conn.write('Name: AAS');
+  
+  
+  
+
+  
+
   return conn;
 };
 
